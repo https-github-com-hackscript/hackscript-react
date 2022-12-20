@@ -1,0 +1,101 @@
+body{
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    width: 90%;
+    border-radius: 20px;
+    margin-left: 5%;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box{
+    height: 70vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  
+}
+.box h1{
+    font-size: 18px;
+    font-weight: 200;
+    margin-left: 10px;
+}
+.box h3{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 100;
+}
+.box input{
+    height: 30px;
+    margin-left: 20px;
+    border: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid;
+    width: 80%;
+    border-color: #009EFF;
+    outline: none;
+}
+.box p{
+    margin-left: 20px;
+}
+.box button{
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: #009EFF;
+    color: white;
+   
+}
+.box button:hover{
+    background-color: white;
+    color: #009EFF;
+    cursor: pointer;
+}
+.lbox{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+ 
+   
+    width: 40vw;
+    
+}
+.square{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+   
+    padding: 10%;
+    color: black;
+    border-radius: 10px;
+}
+
+.square h2{
+    color:#009EFF;
+    font-size: 25px;
+}
+.lbox img{
+    height: 150px;
+    width: 200px;
+    margin-bottom: -80px;
+    border-radius: 50%;
+}
